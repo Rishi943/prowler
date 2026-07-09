@@ -1,7 +1,7 @@
 # Build command
 # docker build --platform=linux/amd64  --no-cache -t prowler:latest .
 
-ARG PROWLER_VERSION=latest@sha256:ebb4ab999f10cb7e7c256226c2873de9b3bf2f3d855f385e0164bcf34104bfba
+ARG PROWLER_VERSION=latest@sha256:5ddbc727e0ba90ed9bf1c341ab20cee78c25c2afb31cba767f59e84239555b48
 
 FROM toniblyx/prowler:${PROWLER_VERSION}
 
